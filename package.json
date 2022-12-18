@@ -16,5 +16,8 @@
     "url": "https://github.com/pn-tonouchi/typescript-for-javascript-developers/issues"
   },
   "homepage": "https://github.com/pn-tonouchi/typescript-for-javascript-developers#readme",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
 }
