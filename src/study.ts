@@ -9,11 +9,12 @@ console.log({ isFinished });
 // number
 let year: number = 1977;
 console.log({ year });
-let age: number = 0x2d;
+//let age: number = 0x2d;
+let age: number = Math.trunc((20221230 - 19770603) / 10000);
 console.log({ age });
 
 // string
-let myname: string = 'Tono';
+let myname: string = 'tonouchi';
 console.log({ myname });
 
 // array
@@ -33,6 +34,5 @@ let objects2: Array<string | number | boolean> = [1, false, 'A'];
 let tuple: [string, number] = ['Tono', 45];
 
 // any（型不定）
-
-
+// any.ts
 
